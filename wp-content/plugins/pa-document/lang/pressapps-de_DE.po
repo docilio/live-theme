@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Document\n"
+"POT-Creation-Date: 2013-09-18 23:17+0100\n"
+"PO-Revision-Date: 2014-01-03 13:00+0100\n"
+"Last-Translator: Andreas Reitberger <andy.reitberger@gmail.com>\n"
+"Language-Team: wdbase.de <kontakt@wdbase.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2;_x:1,2c;_ex:1,2x;esc_attr__;esc_attr_e;_;"
+"gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../add_filter.php:13
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../add_filter.php:34
+msgid "Title"
+msgstr "Titel"
+
+#: ../add_filter.php:35 ../init.php:81 ../init.php:127
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../admin-page.php:8 ../init.php:56
+msgid "Document"
+msgstr "Dokument"
+
+#: ../admin-page.php:21
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben nicht ausreichend Berechtigungen um diese Seite zu betreten."
+
+#: ../admin-page.php:48
+msgid "Setup"
+msgstr "Einrichten"
+
+#: ../admin-page.php:50
+msgid "Voting"
+msgstr "Abstimmung"
+
+#: ../admin-page.php:55
+msgid "Diabled"
+msgstr "Deaktiviert"
+
+#: ../admin-page.php:56
+msgid "Public Voting"
+msgstr "Alle dürfen abstimmen"
+
+#: ../admin-page.php:57
+msgid "Registered Users Only"
+msgstr "Nur Mitglieder können abstimmen"
+
+#: ../admin-page.php:59
+msgid "Select number of thumbnail columns."
+msgstr "Wähle Anzahl der Thumbnail-Spalten."
+
+#: ../admin-page.php:61
+msgid "Color"
+msgstr "Farbe"
+
+#: ../admin-page.php:66
+msgid "Set color."
+msgstr "Wählen Sie die Farbe."
+
+#: ../admin-page.php:69
+msgid "Custom CSS"
+msgstr "Eigener CSS-Code"
+
+#: ../admin-page.php:74
+msgid "Add custom CSS code."
+msgstr "Fügen Sie hier Ihre eigenen Anpassungen als CSS-Code ein."
+
+#: ../function.php:148
+#, php-format
+msgid "%s person found this helpful"
+msgid_plural "%s people found this helpful"
+msgstr[0] "%s Besucher fand das nützlich"
+msgstr[1] "%s Besucher fanden das nützlich"
+
+#: ../function.php:149
+#, php-format
+msgid "%s person did not find this helpful"
+msgid_plural "%s people did not find this helpful"
+msgstr[0] "%s Besucher fand das nicht nützlich"
+msgstr[1] "%s Besucher fanden das nicht nützlich"
+
+#: ../function.php:150
+msgid "I found this helpful"
+msgstr "I fand das nützlich"
+
+#: ../function.php:151
+msgid "I did not find this helpful"
+msgstr "Ich fand das nicht nützlich"
+
+#: ../help.php:11
+msgid "Document Shortcode"
+msgstr "Dokument-Shortcode"
+
+#: ../help.php:14
+msgid "<h2>Document Shortcode</h2>"
+msgstr "<h2>Dokument-Shortcode</h2>"
+
+#: ../help.php:16
+msgid ""
+"You can use <code>[document]</code> shortcode to include the Document on any "
+"page, post or custom post type."
+msgstr ""
+"Sie können <code>[document]</code> verwenden, um das Dokument in jede "
+"beliebige Seite, beliebigen Beitrag oder Custom Post Typ einzubinden."
+
+#: ../help.php:18
+msgid "The shortcode accepts one optional attribute:"
+msgstr "Der Shortcode kann mit einer optionalen Einstellung erweitert werden:"
+
+#: ../help.php:19
+msgid "<b>category</b> = <i>-1</i> <b>|</b> <i>{any document category id}</i>"
+msgstr ""
+"<b>category</b> = <i>-1</i> <b>|</b> <i>{jede beliebige ID der Dokumenten-"
+"Kategorie}</i>"
+
+#: ../help.php:20
+msgid "<b>Example</b>"
+msgstr "<b>Beispiel</b>"
+
+#: ../help.php:21
+#, php-format
+msgid ""
+"<code>[document category={category_id}]</code> {category_id} you will find "
+"it <a href=\"%s\">here</a> under shortcode column"
+msgstr ""
+"<code>[document category={Kategorie_ID}]</code> Die {Kategorie_ID} finden "
+"Sie <a href=\"%s\">hier</a> unter der Shortcode Spalte"
+
+#: ../init.php:53
+msgid "Document Posts"
+msgstr "Document Beiträge"
+
+#: ../init.php:55
+msgid "Documents"
+msgstr "Dokumente"
+
+#: ../init.php:57
+msgid "Add New"
+msgstr "Neues Dokument"
+
+#: ../init.php:58
+msgid "Add New Document"
+msgstr "Neues Dokument"
+
+#: ../init.php:59
+msgid "Edit Document"
+msgstr "Dokument bearbeiten"
+
+#: ../init.php:60
+msgid "New Document"
+msgstr "Neues Dokument"
+
+#: ../init.php:61
+msgid "View Document"
+msgstr "Dokument anzeigen"
+
+#: ../init.php:62
+msgid "Search Documents"
+msgstr "Dokumente durchsuchen"
+
+#: ../init.php:63
+msgid "No Documents found"
+msgstr "Keine Dokumente gefunden"
+
+#: ../init.php:64
+msgid "No Documents found in Trash"
+msgstr "Keine Dokumente im Papierkorb gefunden"
+
+#: ../init.php:65
+msgid "All Documents"
+msgstr "Alle Dokumente"
+
+#: ../init.php:80 ../init.php:91
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../init.php:82
+msgid "Search Categories"
+msgstr "Kategorien durchsuchen"
+
+#: ../init.php:83
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: ../init.php:84
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+#: ../init.php:85
+msgid "Parent Category:"
+msgstr "Übergeordnete Kategorie:"
+
+#: ../init.php:86
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: ../init.php:87
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+#: ../init.php:88
+msgid "Add New Category"
+msgstr "Neue Kategorie"
+
+#: ../init.php:89
+msgid "New Category Name"
+msgstr "Name der neuen Kategorie"

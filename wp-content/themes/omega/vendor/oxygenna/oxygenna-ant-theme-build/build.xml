@@ -1,0 +1,12 @@
+<project>
+    <import file="modules/utils.xml"/>
+    <import file="modules/html.xml"/>
+    <import file="modules/wordpress.xml"/>
+    <import file="modules/update.xml"/>
+
+    <target name="build">
+        <!-- build HTML -->
+        <antcall target="html"></antcall>
+        <antcall target="wordpress"></antcall>
+    </target>
+</project>

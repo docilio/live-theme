@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Document\n"
+"POT-Creation-Date: 2014-01-24 17:49+0100\n"
+"PO-Revision-Date: 2014-01-24 17:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2;_x:1,2c;_ex:1,2x;esc_attr__;esc_attr_e;_;"
+"gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../document.php:64
+msgid "Document Posts"
+msgstr ""
+
+#: ../document.php:66
+msgid "Documents"
+msgstr ""
+
+#: ../document.php:67
+msgid "Document"
+msgstr ""
+
+#: ../document.php:68
+msgid "Add New"
+msgstr ""
+
+#: ../document.php:69
+msgid "Add New Document"
+msgstr ""
+
+#: ../document.php:70
+msgid "Edit Document"
+msgstr ""
+
+#: ../document.php:71
+msgid "New Document"
+msgstr ""
+
+#: ../document.php:72
+msgid "View Document"
+msgstr ""
+
+#: ../document.php:73
+msgid "Search Documents"
+msgstr ""
+
+#: ../document.php:74
+msgid "No Documents found"
+msgstr ""
+
+#: ../document.php:75
+msgid "No Documents found in Trash"
+msgstr ""
+
+#: ../document.php:76
+msgid "All Documents"
+msgstr ""
+
+#: ../document.php:91 ../document.php:102 ../includes/filters.php:35
+msgid "Categories"
+msgstr ""
+
+#: ../document.php:92
+msgid "Category"
+msgstr ""
+
+#: ../document.php:93
+msgid "Search Categories"
+msgstr ""
+
+#: ../document.php:94
+msgid "All Categories"
+msgstr ""
+
+#: ../document.php:95
+msgid "Parent Category"
+msgstr ""
+
+#: ../document.php:96
+msgid "Parent Category:"
+msgstr ""
+
+#: ../document.php:97
+msgid "Edit Category"
+msgstr ""
+
+#: ../document.php:98
+msgid "Update Category"
+msgstr ""
+
+#: ../document.php:99
+msgid "Add New Category"
+msgstr ""
+
+#: ../document.php:100
+msgid "New Category Name"
+msgstr ""
+
+#: ../includes/actions.php:66
+msgid "Selecte Category"
+msgstr ""
+
+#: ../includes/actions.php:98 ../includes/filters.php:13
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/filters.php:34
+msgid "Title"
+msgstr ""
+
+#: ../includes/filters.php:36
+msgid "Slug"
+msgstr ""
+
+#: ../includes/functions.php:189
+#, php-format
+msgid "%s person found this helpful"
+msgid_plural "%s people found this helpful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/functions.php:190
+#, php-format
+msgid "%s person did not find this helpful"
+msgid_plural "%s people did not find this helpful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/functions.php:191
+msgid "I found this helpful"
+msgstr ""
+
+#: ../includes/functions.php:192
+msgid "I did not find this helpful"
+msgstr ""
+
+#: ../includes/help.php:20
+msgid "Document Shortcode"
+msgstr ""
+
+#: ../includes/help.php:23
+msgid "<h2>Document Shortcode</h2>"
+msgstr ""
+
+#: ../includes/help.php:25
+msgid ""
+"You can use <code>[document]</code> shortcode to include the Document on any "
+"page, post or custom post type."
+msgstr ""
+
+#: ../includes/help.php:27
+msgid "The shortcode accepts one optional attribute:"
+msgstr ""
+
+#: ../includes/help.php:28
+msgid "<b>category</b> = <i>-1</i> <b>|</b> <i>{any document category id}</i>"
+msgstr ""
+
+#: ../includes/help.php:29
+msgid "<b>Example</b>"
+msgstr ""
+
+#: ../includes/help.php:30
+#, php-format
+msgid ""
+"<code>[document category={category_id}]</code> {category_id} you will find "
+"it <a href=\"%s\">here</a> under shortcode column"
+msgstr ""
+
+#: ../includes/admin/page.php:8
+msgid "PA Document"
+msgstr ""
+
+#: ../includes/admin/page.php:21
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../includes/admin/page.php:25
+msgid "Document Settings"
+msgstr ""
+
+#: ../includes/admin/page.php:48
+msgid "Setup"
+msgstr ""
+
+#: ../includes/admin/page.php:50
+msgid "Reorder"
+msgstr ""
+
+#: ../includes/admin/page.php:55 ../includes/admin/page.php:65
+msgid "Disabled"
+msgstr ""
+
+#: ../includes/admin/page.php:56
+msgid "Enabled"
+msgstr ""
+
+#: ../includes/admin/page.php:58
+msgid "Enable document posts and categories drag and drop reorder feature."
+msgstr ""
+
+#: ../includes/admin/page.php:60
+msgid "Voting"
+msgstr ""
+
+#: ../includes/admin/page.php:66
+msgid "Public Voting"
+msgstr ""
+
+#: ../includes/admin/page.php:67
+msgid "Logged In Users Only"
+msgstr ""
+
+#: ../includes/admin/page.php:69
+msgid "Document post voting."
+msgstr ""
+
+#: ../includes/admin/page.php:71
+msgid "Icon"
+msgstr ""
+
+#: ../includes/admin/page.php:76
+msgid "None"
+msgstr ""
+
+#: ../includes/admin/page.php:77
+msgid "Thumb"
+msgstr ""
+
+#: ../includes/admin/page.php:79
+msgid "Select vote icon."
+msgstr ""
+
+#: ../includes/admin/page.php:81
+msgid "Color"
+msgstr ""
+
+#: ../includes/admin/page.php:86
+msgid "Set links and category headline color."
+msgstr ""
+
+#: ../includes/admin/page.php:89
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/admin/page.php:94
+msgid "Add custom CSS code."
+msgstr ""
+
+#: ../templates/document-default.php:6
+msgid "No Document Found"
+msgstr ""
+
+#: ../templates/document-default.php:78 ../templates/document-default.php:86
+#: ../templates/document-default.php:117
+msgid "Link to this page section"
+msgstr ""
+
+#: ../templates/document-default.php:100 ../templates/document-default.php:131
+msgid "Back To Top"
+msgstr ""
